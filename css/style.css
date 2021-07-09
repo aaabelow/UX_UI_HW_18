@@ -70,8 +70,8 @@ body {
   }
   .projectsGrid {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 350px 350px 350px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
     grid-template-areas:
     "img1 content1"
     "img2 content2"
